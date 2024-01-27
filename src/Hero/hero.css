@@ -1,0 +1,40 @@
+/*
+    ##########################
+    Hero StyleSheet
+    ##########################
+*/
+.hero-wrapper {
+	background-image: url('../Images/hero_cover.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	padding-top: 180px;
+}
+
+.hero-wrapper h1 {
+	font-size: 4em;
+	width: 80%;
+	margin-bottom: 15px;
+}
+.hero-wrapper p {
+	font-size: 1.5em;
+	width: 80%;
+}
+.hero-wrapper + section img {
+	width: 60px;
+}
+
+@media screen and (max-width: 900px) {
+	.hero-wrapper {
+		padding-top: 120px;
+	}
+	.hero-wrapper h1 {
+		font-size: 3em;
+		width: 100%;
+	}
+	.hero-wrapper p {
+		font-size: 1.2em;
+		width: 100%;
+	}
+}
+

@@ -1,0 +1,74 @@
+/*
+    ##########################
+    Header StyleSheet
+    ##########################
+*/
+:root {
+  --purple: rgba(110, 0, 255, 1.0);
+  --pink:	rgba(255, 0, 203, 1.0);
+  --medium-pink: rgba(255, 0, 203, 0.8);
+  --light-pink: rgba(255, 0, 203, 0.5);
+  --light-blue: rgba(128, 175, 245, 1.0);
+  --white: rgba(255, 255, 255, 1.0);
+  --light-white: rgba(255, 255, 255, 0.6);
+  --black: rgba(0, 0, 0, 1.0);
+}
+
+header > div:first-child {
+    background-image: linear-gradient(to right, var(--purple), var(--pink));
+}
+header > div:first-child li {
+    padding: 5px;
+}
+header > div:first-child img {
+    width: 20px;
+}
+header .facebook {
+    width: 13.1px!important;
+}
+header .youtube {
+    width: 25px!important;
+}
+
+.menu {
+	width: 30px;
+	cursor: pointer;
+}
+.close {
+	position: absolute;
+	width: 30px;
+	top: 20px; 
+	right: 20px;
+	cursor: pointer;
+}
+
+nav img {
+	width: 240px;
+}
+nav a {
+	text-decoration-line: none;
+	color: var(--white);
+	font-size: 1.2em;
+	transition: 0.6s;
+}
+nav a:hover {
+	color: var(--pink);
+}
+.logo {
+	margin-right: 40px;
+}
+.navigation {
+	background-color: var(--black);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+	width: 100%;
+	height: 100%;
+	transition: 0.6s;
+}
+.nav-active {
+	margin-top: -1000px;
+	transition: 0.6s;
+}
+

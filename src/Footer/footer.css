@@ -1,0 +1,41 @@
+/*
+    ##########################
+    Footer StyleSheet
+    ##########################
+*/
+:root {
+  --purple: rgba(110, 0, 255, 1.0);
+  --pink:	rgba(255, 0, 203, 1.0);
+  --medium-pink: rgba(255, 0, 203, 0.8);
+  --light-pink: rgba(255, 0, 203, 0.5);
+  --light-blue: rgba(128, 175, 245, 1.0);
+  --white: rgba(255, 255, 255, 1.0);
+  --light-white: rgba(255, 255, 255, 0.6);
+  --black: rgba(0, 0, 0, 1.0);
+}
+
+.hr-footer {
+	background-color: var(--white);
+	height: 6px;
+	width: 15%;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.footer-wrapper {
+	background-image: linear-gradient(to right, var(--purple), var(--pink));
+}
+.footer-wrapper hr {
+	height: 30px;
+}
+
+.footer-wrapper .row img {
+    width: 20px;
+}
+.footer-wrapper .facebook {
+    width: 13.1px!important;
+}
+.footer-wrapper .youtube {
+    width: 25px!important;
+}

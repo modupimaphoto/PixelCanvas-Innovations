@@ -1,0 +1,17 @@
+/*
+    ##########################
+    Contact StyleSheet
+    ##########################
+*/
+.contact-wrapper input::placeholder,
+.contact-wrapper textarea::placeholder {
+	color: var(--light-white);
+}
+.contact-wrapper textarea {
+	height: 150px;
+	resize: none;
+}
+.contact-wrapper .row div:last-child {
+	background-image: url('../Images/report_example.png');
+	background-position: center;
+}

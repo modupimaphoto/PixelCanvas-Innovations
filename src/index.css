@@ -1,22 +1,17 @@
+/*
+    ##########################
+    Main StyleSheet
+    ##########################
+*/
 :root {
   --purple: rgba(110, 0, 255, 1.0);
   --pink:	rgba(255, 0, 203, 1.0);
-  --medium-pink: rgba(255, 0, 203, 0.6);
-  --light-pink: rgba(255, 0, 203, 0.2);
+  --medium-pink: rgba(255, 0, 203, 0.8);
+  --light-pink: rgba(255, 0, 203, 0.5);
   --light-blue: rgba(128, 175, 245, 1.0);
   --white: rgba(255, 255, 255, 1.0);
   --light-white: rgba(255, 255, 255, 0.6);
   --black: rgba(0, 0, 0, 1.0);
-}
-
-header > div:first-child {
-    background-image: linear-gradient(to right, var(--purple), var(--pink));
-}
-header > div:first-child li {
-    padding: 5px;
-}
-header > div:first-child img {
-    width: 20px;
 }
 
 .btn-custom-1 {
@@ -43,9 +38,16 @@ header > div:first-child img {
 	padding: 10px 20px!important;
 	transition: 0.6s;
 }
-
+.btn-custom-4 {
+	background-color: var(--purple)!important;
+	padding: 10px 40px!important;
+	color: var(--white)!important;
+}
 .font-color-pink {
 	color: var(--pink);
+}
+.bg-purple {
+	background-color: var(--purple);
 }
 .hr {
 	background-image: linear-gradient(to right, var(--purple), var(--pink));
@@ -55,41 +57,11 @@ header > div:first-child img {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-
-.hero-wrapper {
-	background-image: url('./Images/hero_cover.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100vh;
-	padding-top: 180px;
-}
-
-.hero-wrapper h1 {
-	font-size: 4em;
-	width: 80%;
-	margin-bottom: 15px;
-}
-.hero-wrapper p {
-	font-size: 1.5em;
-	width: 80%;
-}
-
-nav img {
-	width: 240px;
-}
-nav a {
-	text-decoration-line: none;
-	color: var(--white);
-	font-size: 1.2em;
-	transition: 0.6s;
-}
-nav a:hover {
-	color: var(--pink);
-}
-.logo {
-	margin-right: 40px;
-}
-
-.about-us-wrapper p {
-	font-size: 1.25em;
+.hr-white {
+	background-color: var(--white);
+	height: 8px;
+	width: 15%;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }

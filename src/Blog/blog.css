@@ -1,0 +1,26 @@
+/*
+    ##########################
+    Blog StyleSheet
+    ##########################
+*/
+.blog-wrapper .card {
+	background-color: transparent;
+	color: var(--white);
+	border: none;
+}
+
+.blog-wrapper .col-md-6 .row img {
+	width: 100%;
+	height: 305px;
+	object-fit: fit;
+}
+.blog-wrapper .d-flex div:first-child a {
+	font-weight: 600;
+	color: var(--light-blue);
+	font-size: 1.1em;
+}
+.blog-wrapper .d-flex img {
+	width: 23px;
+}
+
+
