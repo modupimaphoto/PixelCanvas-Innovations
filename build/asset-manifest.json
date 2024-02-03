@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.9ad2501d.css",
-    "main.js": "/static/js/main.cefc512e.js",
+    "main.js": "/static/js/main.f47e627f.js",
     "static/media/marketing_strategy.jpg": "/static/media/marketing_strategy.f82b210cb7081bf9bc0f.jpg",
+    "static/media/video_illustration.png": "/static/media/video_illustration.18f710963224c2b3d879.png",
     "static/media/report_example.png": "/static/media/report_example.3b039cd4c209e9e2847d.png",
     "static/media/modern_websites.jpg": "/static/media/modern_websites.3ef5a6dbdacf327ed7fc.jpg",
     "static/media/modern_website_2.jpg": "/static/media/modern_website_2.e7ea020967f3fc485393.jpg",
@@ -12,10 +13,10 @@
     "static/media/client_2.png": "/static/media/client_2.a1f37c88f90d487033d1.png",
     "index.html": "/index.html",
     "main.9ad2501d.css.map": "/static/css/main.9ad2501d.css.map",
-    "main.cefc512e.js.map": "/static/js/main.cefc512e.js.map"
+    "main.f47e627f.js.map": "/static/js/main.f47e627f.js.map"
   },
   "entrypoints": [
     "static/css/main.9ad2501d.css",
-    "static/js/main.cefc512e.js"
+    "static/js/main.f47e627f.js"
   ]
 }
