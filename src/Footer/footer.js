@@ -4,6 +4,7 @@ import twitter_icon from '../Images/Social/twitter_icon.png';
 import instagram_icon from '../Images/Social/instagram_icon.png';
 import facebook_icon from '../Images/Social/facebook_icon.png';
 import youtube_icon from '../Images/Social/youtube_icon.png';
+import pinterest_icon from '../Images/Social/pinterest_icon.png';
 import linkedin_icon from '../Images/Social/linkedin_icon.png';
 
 import mail_icon from '../Images/mail_icon.png';
@@ -59,6 +60,7 @@ const Footer = () => {
 							<a href="https://www.instagram.com" className="px-3"><img src={ instagram_icon } alt="Instagram Icon"/></a> |
 							<a href="https://www.facebook.com" className="px-3"><img src={ facebook_icon } className="facebook" alt="Facebook Icon"/></a> |
 							<a href="https://www.youtube..com" className="px-3"><img src={ youtube_icon } className="youtube" alt="Youtube Icon"/></a> |
+							<a href="https://www.pinterest.com" className="px-3"><img src={ pinterest_icon } alt="Pinterest Icon"/></a> |
 							<a href="https://www.linkedin.com" className="px-3"><img src={ linkedin_icon } alt="Linkedin Icon"/></a>
 						</div>
 					</div>

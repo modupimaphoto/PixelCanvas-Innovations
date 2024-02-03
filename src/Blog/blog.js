@@ -12,7 +12,7 @@ const Blog = () => {
 
 	return (
 		<>
-			<section className="blog-wrapper bg-purple p-2 p-md-5 text-white pt-5 pt-md-0  pb-5 pb-md-0">
+			<section className="blog-wrapper bg-purple p-2 p-md-5 text-white pt-5 pt-md-0  pb-5">
 				<div className="container">
 					<h3>Our Blog</h3>
 					<div className="hr-white mb-5"></div>
@@ -40,7 +40,7 @@ const Blog = () => {
 							</div>
 						</div>
 						<div className="col-md-6">
-							<div className="row g-4">
+							<div className="row g-4 mb-3">
 								<div className="col-12 col-md-4">
 									<img src={ modern_website_2 } className="rounded-3" alt=""/>
 								</div>
@@ -64,7 +64,7 @@ const Blog = () => {
 									<img src={ marketing_strategy } className="rounded-3" alt=""/>
 								</div>
 								<div className="col-12 col-md-8">
-									<h4>Content that Converts: Strategies for Effective Digital Marketing</h4>
+									<h4 className="pt-3">Content that Converts: Strategies for Effective Digital Marketing</h4>
 									<p>
 										This blog post will focus on digital marketing strategies to create content that engages and converts.
 										It will discuss the power of storytelling, the importance of visual content, and the role of social media in digital marketing. Readers will learn practical tips for crafting compelling content that resonates with their target audience.

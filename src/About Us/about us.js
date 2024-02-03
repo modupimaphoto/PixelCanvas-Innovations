@@ -1,10 +1,12 @@
 import './about us.css';
 
+import video_illustration from '../Images/video_illustration.png'
+
 const AboutUs = () => {
 
     return (
         <>
-            <section className="about-us-wrapper bg-black text-white p-2 p-md-5">
+            <section className="about-us-wrapper bg-black pb-4 pb-md-0 text-white p-2 p-md-5">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">
@@ -16,7 +18,9 @@ const AboutUs = () => {
                                 Our mission is to empower brands through cutting-edge design, seamless user experiences, and strategic digital solutions.
                             </p>
                         </div>
-                        <div className="col-md-6"></div>
+                        <div className="col-md-6">
+							<img src={ video_illustration } alt="Video Illustration" className="img-fluid"/>
+						</div>
                     </div>
                 </div>
             </section>

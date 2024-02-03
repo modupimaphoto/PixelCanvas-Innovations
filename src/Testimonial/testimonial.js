@@ -9,7 +9,7 @@ const Testimonial = () => {
 
 	return (
 		<>
-			<section className="testimonial-wrapper bg-purple text-white p-2 p-md-5 pt-5 pt-md-0">
+			<section className="testimonial-wrapper bg-purple text-white p-2 p-md-5 pt-5">
 				<div className="container">
 					<h3>Testimonial</h3>
 					<p>What Client Say About Us?</p>
